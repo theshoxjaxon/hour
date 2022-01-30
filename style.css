@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quintessential", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-image: url("./img/back-main-img.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #1f1d1d;
+}
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-self: center;
+}
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 3rem;
+}
